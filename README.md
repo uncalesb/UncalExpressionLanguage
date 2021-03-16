@@ -1,10 +1,10 @@
 # UncalExpressionLanguage (U{E}L)
 
-is a variabel-a-like used on a field of UncalESB to customize an input text value.\n
-the expression consists of String and ExpressionLanguage.\n
-String is a constant value that defined by user on input text as is.\n
-ExpressionLanguage is a predefined value that defined by UncalEngine at runtime, with notation {$EL}\n
-the expressions are:\n
+is a variabel-a-like used on a field of UncalESB to customize an input text value.\
+the expression consists of String and ExpressionLanguage.\
+String is a constant value that defined by user on input text as is.\
+ExpressionLanguage is a predefined value that defined by UncalEngine at runtime, with notation {$EL}\
+the expressions are:\
 $Counter = is a counter based on integration scenario with default digit is 5 and starts from 1
 $DATE = is a current date with default structure is ddMMyy
 $TIME = is a current time with default structure is HHmmss
