@@ -1,6 +1,6 @@
 # UncalExpressionLanguage (U{E}L)
 
-is a variabel-a-like used on a field of UncalESB to customize an input text value.\
+is a variabel-a-like used on a field of **UncalESB 1.1** to customize an input text value.\
 the expression consists of **String** and **ExpressionLanguage**.\
 **String** is a constant value that defined by user on input text as is.\
 **ExpressionLanguage** is a predefined value that defined by UncalEngine at runtime, with notation **{$EL}**\
