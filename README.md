@@ -14,7 +14,7 @@ the expressions are:\
 `$Counter(xxxxxx)` defined for 6 digit counter starts from 1\
 `$Counter(00010)` defined for 5 digit counter starts from 11 (10 + 1)\
 `$DATE(ddMMyyyy)` defined for 4 digit year\
-`$TIME(mmss)` defined for minute and second only\
+`$TIME(mmss)` defined for minute and second only
 
 ## the sturcture is :
 `String{$EL}String`\
