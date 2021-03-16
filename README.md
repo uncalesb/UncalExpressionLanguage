@@ -8,14 +8,14 @@ the expressions are:\
 `$Counter` = is a counter based on integration scenario with default digit is 5 and starts from 1\
 `$DATE` = is a current date with default structure is **ddMMyy**\
 `$TIME` = is a current time with default structure is **HHmmss**\
-`$TIMESTAMP` = is a current **timestamp**\
+`$TIMESTAMP` = is a current **timestamp**
 
 ## for costumization:
 `$Counter(xxxxxx)` defined for 6 digit counter starts from 1\
 `$Counter(00010)` defined for 5 digit counter starts from 11 (10 + 1)\
 `$DATE(ddMMyyyy)` defined for 4 digit year\
 `$TIME(mmss)` defined for minute and second only\
-\
+
 ## the sturcture is :
 `String{$EL}String`\
 e.g.\
