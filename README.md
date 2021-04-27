@@ -21,4 +21,4 @@ the expressions are:\
 e.g.\
 `MFG_{$Counter}.txt`\
 result :\
-`MFG_00001.txt`\
+`MFG_00001.txt`
