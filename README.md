@@ -8,7 +8,8 @@ the expressions are:\
 `$Counter()` = is a counter based on integration scenario with default digit is 5 and starts from 1\
 `$DATE(_parameter_)` = is a current date with default structure is **ddMMyy**\
 `$TIME(_parameter_)` = is a current time with default structure is **HHmmss**\
-`$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**
+`$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**\
+`$MILLIS()` = is a current time millisecond\
 
 ## for costumization:
 `$Counter(xxxxxx)` defined for 6 digit counter starts from 1\
