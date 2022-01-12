@@ -5,10 +5,10 @@ the expression consists of **String** and **ExpressionLanguage**.\
 **String** is a constant value that defined by user on input text as is.\
 **ExpressionLanguage** is a predefined value that defined by UncalEngine at runtime, with notation **{$EL}**\
 the expressions are:\
-`$Counter` = is a counter based on integration scenario with default digit is 5 and starts from 1\
-`$DATE` = is a current date with default structure is **ddMMyy**\
-`$TIME` = is a current time with default structure is **HHmmss**\
-`$TIMESTAMP` = is a current **timestamp**
+`$Counter()` = is a counter based on integration scenario with default digit is 5 and starts from 1\
+`$DATE(_parameter_)` = is a current date with default structure is **ddMMyy**\
+`$TIME(_parameter_)` = is a current time with default structure is **HHmmss**\
+`$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**
 
 ## for costumization:
 `$Counter(xxxxxx)` defined for 6 digit counter starts from 1\
