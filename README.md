@@ -17,7 +17,7 @@ the expressions are:\
 `$DATE(ddMMyyyy)` defined for 4 digit year\
 `$TIME(mmss)` defined for minute and second only
 
-## the sturcture is :
+## usage :
 `String{$EL}String`\
 e.g.\
 `MFG_{$Counter}.txt`\
