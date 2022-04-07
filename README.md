@@ -6,8 +6,8 @@ the expression consists of **String** and **ExpressionLanguage**.\
 **ExpressionLanguage** is a predefined value that defined by UncalEngine at runtime, with notation **{$EL}**\
 the expressions are:\
 `$Counter()` = is a counter based on integration scenario with default digit is 5 and starts from 1\
-`$DATE(_parameter_)` = is a current date with default structure is **ddMMyy**\
-`$TIME(_parameter_)` = is a current time with default structure is **HHmmss**\
+`$DATE(_parameter_)` = is a current date with default format is **ddMMyy**\
+`$TIME(_parameter_)` = is a current time with default format is **HHmmss**\
 `$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**\
 `$MILLIS()` = is a current time millisecond\
 
