@@ -10,7 +10,8 @@ the expressions are:\
 `$TIME(_parameter_)` = is a current time with default format is **HHmmss**\
 `$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**\
 `$MILLIS()` = is a current time millisecond\
-
+`$NANOTIME()` = is a current nanotime more unique than Millisecond\
+`$AS()` = is same as source filename\
 ## for costumization:
 `$Counter(xxxxxx)` defined for 6 digit counter starts from 1\
 `$Counter(00010)` defined for 5 digit counter starts from 11 (10 + 1)\
