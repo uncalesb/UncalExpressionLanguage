@@ -5,8 +5,22 @@ the expression consists of **String** and **ExpressionLanguage**.\
 **String** is a constant value that defined by user on input text as is.\
 **ExpressionLanguage** is a predefined value that defined by UncalEngine at runtime, with notation **{$EL}**\
 the expressions are:\
-`$Counter()` = is a counter based on integration scenario with default digit is 5 and starts from 1\
+### COUNTER
+#### is a counter based on integration scenario with default digit is 5 and starts from 0, applied for NFS, FTP, FTPS, SFTP (receiver) File Name
+#### `$Counter()` with parameter `$Counter(00)`
+how to use :\
+`$Counter()` result : 00000 and increament by 1 at next execution\
+`$Counter(00)` result : 00 and increament by 1 at next execution\
+`$Counter(56)` result : 56 and increament by 1 at next execution
+### DATE
+#### is current date with default format ddMMyy, applied for NFS, FTP, FTPS, SFTP (receiver) File Name
+#### `$DATE()` with parameter `$DATE(yyyy-MM-dd)`
+how to use:\
 `$DATE(_parameter_)` = is a current date with default format is **ddMMyy**\
+### TIME
+#### is current time with default format HHmmss, applied for NFS, FTP, FTPS, SFTP (receiver) File Name
+#### `$TIME()` with paramter `$TIME(HHmmss)`
+how to use :\
 `$TIME(_parameter_)` = is a current time with default format is **HHmmss**\
 `$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**\
 `$MILLIS()` = is a current time millisecond\
