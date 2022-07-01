@@ -11,8 +11,12 @@ the expressions are:\
 `$TIMESTAMP()` = is a current **yyy-MM-dd HH:mm:ss.SS**\
 `$MILLIS()` = is a current time millisecond\
 `$NANOTIME()` = is a current nanotime more unique than Millisecond\
-`$AS()` = is same as source filename\
-## for costumization:
+`$ASIS()` = is same as source filename\
+`$FNCP([file_extension],BnMnAnP=[parameter])`\
+how to use:
+`$FNCP(*.*,B1M0A10P=Jojot)` mean : find all file type, dive into file content, B1 = at line 1 M0 = from char index 0 to A10 = to char index 10 P=Jojot find word 'Jojot'\
+`$FNCP(*.*,P=Jojot)` or `$FNCP(*.*,BSP=Jojot)` mean find all file type, dive into file content and file 'Jojot' in it. BS mean whole line of file content\
+## for customization:
 `$Counter(xxxxxx)` defined for 6 digit counter starts from 1\
 `$Counter(00010)` defined for 5 digit counter starts from 11 (10 + 1)\
 `$DATE(ddMMyyyy)` defined for 4 digit year\
