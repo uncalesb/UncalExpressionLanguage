@@ -12,7 +12,8 @@ the expressions are:\
 `$MILLIS()` = is a current time millisecond\
 `$NANOTIME()` = is a current nanotime more unique than Millisecond\
 `$ASIS()` = is same as source filename\
-`$FNCP([file_extension],BnMnAnP=[parameter])`\
+### File Name Content Parse (FNCP)
+#### `$FNCP([*file_extension*],B*n*M*n*A*n*P=[*parameter*])`\
 how to use:
 `$FNCP(*.*,B1M0A10P=Jojot)` mean : find all file type, dive into file content, B1 = at line 1 M0 = from char index 0 to A10 = to char index 10 P=Jojot find word 'Jojot'\
 `$FNCP(*.*,P=Jojot)` or `$FNCP(*.*,BSP=Jojot)` mean find all file type, dive into file content and file 'Jojot' in it. BS mean whole line of file content\
