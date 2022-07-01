@@ -7,11 +7,13 @@ the expression consists of **String** and **ExpressionLanguage**.\
 the expressions are:
 ### COUNTER
 #### is a counter based on integration scenario with default digit is 5 and starts from 0, applied for NFS, FTP, FTPS, SFTP (receiver) File Name
-#### `$Counter()` with parameter `$Counter(00)`
+#### `{$Counter()}` with parameter `{$Counter(00)}`
 how to use :\
 `$Counter()` result : 00000 and increament by 1 at next execution will be 00001\
 `$Counter(00)` result : 00 and increament by 1 at next execution will be 01\
 `$Counter(56)` result : 56 and increament by 1 at next execution will be 57
+add string :
+`THIS_STRING{$Counter()}THIS_ALSO_STRING` result THIS_STRING00001THIS_ALSO_STRING
 ### DATE
 #### is current date with default format ddMMyy, applied for NFS, FTP, FTPS, SFTP (receiver) File Name
 #### `$DATE()` with parameter `$DATE(yyyy-MM-dd)`
@@ -27,7 +29,7 @@ how to use :\
 `$NANOTIME()` = is a current nanotime more unique than Millisecond\
 `$ASIS()` = is same as source filename\
 ### File Name Content Parse (FNCP)
-#### applied on NFS, FTP, FTPS, SFTP and Email
+#### applied on NFS, FTP, FTPS, SFTP and Email Sender Only
 #### `$FNCP([file_extension],BnMnAnP=[parameter])`
 how to use:\
 `$FNCP(*.*,B1M0A10P=Jojot)` mean : find all file type, dive into file content, B1 = at line 1 M0 = from char index 0 to A10 = to char index 10 P=Jojot find word 'Jojot'\
